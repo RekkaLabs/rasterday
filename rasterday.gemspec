@@ -15,6 +15,7 @@ Gem::Specification.new { |s|
 	s.name = 'rasterday'
 	s.summary = "Rack middleware to convert SVGs to raster images"
 	s.homepage = "http://github.com/reversolabs/#{s.name}"
+	s.licenses << 'MIT'
 	%w(
 		rmagick
 		rack
